@@ -9,11 +9,10 @@
     "skipLibCheck": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "strictNullChecks": true,
     "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
-    "types": ["vitest/globals"]
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
