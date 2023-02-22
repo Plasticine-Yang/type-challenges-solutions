@@ -6,4 +6,7 @@ module.exports = {
   rules: {
     'subject-case': [2, 'never', ['upper-case']],
   },
+  prompt: {
+    scopes: ['easy', 'medium', 'hard', 'extreme'],
+  },
 }
